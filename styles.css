@@ -1,0 +1,38 @@
+#SUS{
+    width: 300px;
+}
+ 
+
+#H1:hover{
+    color: crimson;
+    cursor:  pointer;
+font-size:40px ;
+}
+
+#H1{
+    transition: .3s ease;
+}
+
+#img1{
+    width: 340px;
+}
+
+#img2{
+    width: 340px;
+}
+
+#img3{
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin{
+0%{
+    transform: rotate(0deg);
+}
+50%{
+    transform: rotate(360deg);
+}
+}
+
+
+
